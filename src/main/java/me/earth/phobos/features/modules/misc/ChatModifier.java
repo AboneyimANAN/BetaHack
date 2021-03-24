@@ -21,7 +21,7 @@ public class ChatModifier
         extends Module {
     private static ChatModifier INSTANCE = new ChatModifier();
     private final Timer timer = new Timer();
-    public Setting<Suffix> suffix = this.register(new Setting<Suffix>("Suffix", Suffix.NONE, "Your Suffix."));
+    public Setting<Suffix> suffix = this.register(new Setting<Suffix>("Suffix", Suffix.NONE, " » ʙᴇᴛᴀ"));
     public Setting<Boolean> clean = this.register(new Setting<Boolean>("CleanChat", Boolean.valueOf(false), "Cleans your chat"));
     public Setting<Boolean> infinite = this.register(new Setting<Boolean>("Infinite", Boolean.valueOf(false), "Makes your chat infinite."));
     public Setting<Boolean> autoQMain = this.register(new Setting<Boolean>("AutoQMain", Boolean.valueOf(false), "Spams AutoQMain"));
