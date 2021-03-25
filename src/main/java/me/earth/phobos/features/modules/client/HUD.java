@@ -455,7 +455,7 @@ public class HUD
                 break;
             }
             case LONG: {
-                text = text + "Welcome to Phobos.eu " + HUD.mc.player.getDisplayNameString() + " :^)";
+                text = text + "BetaHack'e Hosgeldin KRAL " + HUD.mc.player.getDisplayNameString() + " :^)";
                 break;
             }
             case CUSTOM: {
@@ -463,7 +463,7 @@ public class HUD
                 break;
             }
             default: {
-                text = text + "Welcome " + HUD.mc.player.getDisplayNameString();
+                text = text + "Hosgeldin " + HUD.mc.player.getDisplayNameString();
                 break;
             }
         }
