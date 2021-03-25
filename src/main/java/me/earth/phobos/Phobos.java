@@ -13,10 +13,10 @@ import org.lwjgl.opengl.Display;
 
 import java.io.IOException;
 
-@Mod(modid = "phobos", name = "BeTa", version = "1.9.0")
+@Mod(modid = "phobos", name = "BetaHack", version = "1.9.0")
 public class Phobos {
     public static final String MODID = "phobos";
-    public static final String MODNAME = "BeTa";
+    public static final String MODNAME = "BetaHack";
     public static final String MODVER = "1.9.0";
     public static final String NAME_UNICODE = "3\u1d00\u0280\u1d1b\u029c\u029c4\u1d04\u1d0b";
     public static final String PHOBOS_UNICODE = "\u1d18\u029c\u1d0f\u0299\u1d0f\ua731";
