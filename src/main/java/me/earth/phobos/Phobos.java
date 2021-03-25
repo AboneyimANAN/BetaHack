@@ -13,7 +13,7 @@ import org.lwjgl.opengl.Display;
 
 import java.io.IOException;
 
-@Mod(modid = "phobos", name = "BeTa", version = "1.3.0")
+@Mod(modid = "phobos", name = "BeTa", version = "1.9.0")
 public class Phobos {
     public static final String MODID = "phobos";
     public static final String MODNAME = "BeTa";
@@ -57,7 +57,7 @@ public class Phobos {
     }
 
     public static void load() {
-        LOGGER.info("\n\nLoading 3arthh4ck 1.9.0");
+        LOGGER.info("\n\nLoading BetaHack 1.9.0");
         unloaded = false;
         if (reloadManager != null) {
             reloadManager.unload();
@@ -99,11 +99,11 @@ public class Phobos {
             DiscordPresence.start();
         }
         cosmeticsManager = new CosmeticsManager();
-        LOGGER.info("3arthh4ck initialized!\n");
+        LOGGER.info("BetaHack initialized!\n");
     }
 
     public static void unload(boolean unload) {
-        LOGGER.info("\n\nUnloading 3arthh4ck 1.9.0");
+        LOGGER.info("\n\nUnloading BetaHack 1.9.0");
         if (unload) {
             reloadManager = new ReloadManager();
             reloadManager.init(commandManager != null ? commandManager.getPrefix() : ".");
@@ -131,7 +131,7 @@ public class Phobos {
         inventoryManager = null;
         notificationManager = null;
         safetyManager = null;
-        LOGGER.info("3arthh4ck unloaded!\n");
+        LOGGER.info("BetaHack unloaded!\n");
     }
 
     public static void reload() {
@@ -157,16 +157,16 @@ public class Phobos {
 
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event) {
-        LOGGER.info("ohare is cute!!!");
-        LOGGER.info("faggot above - 3vt");
-        LOGGER.info("megyn wins again");
-        LOGGER.info("gtfo my logs - 3arth");
+        LOGGER.info("Created By Aboneyim");
+        LOGGER.info("Aboneyim abi beni loglama");
+        LOGGER.info("aboneyim sikerim sal logları");
+        LOGGER.info("Aboneyim adamdır xd");
     }
 
     @Mod.EventHandler
     public void init(FMLInitializationEvent event) {
         customMainScreen = new GuiCustomMainScreen();
-        Display.setTitle("3arthh4ck - v.1.9.0");
+        Display.setTitle("BetaHack - v.1.9.0");
         Phobos.load();
     }
 }
